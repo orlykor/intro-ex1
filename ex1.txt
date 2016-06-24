@@ -1,0 +1,93 @@
+1. i got an explenation to what the function 'goto' does and what can i do with
+it and how to use it.
+what i got:
+Help on function goto in module turtle:
+
+goto(x, y=None)
+    Move turtle to an absolute position.
+    
+    Aliases: setpos | setposition | goto:
+    
+    Arguments:
+    x -- a number      or     a pair/vector of numbers
+    y -- a number             None
+    
+    call: goto(x, y)         # two coordinates
+    --or: goto((x, y))       # a pair (tuple) of coordinates
+    --or: goto(vec)          # e.g. as returned by pos()
+    
+    Move turtle to an absolute position. If the pen is down,
+    a line will be drawn. The turtle's orientation does not change.
+    
+    Example:
+    >>> tp = pos()
+    >>> tp
+    (0.00, 0.00)
+    >>> setpos(60,30)
+
+
+2. <function goto at 0x7feb745ce840> this function tells me to go to a certain
+place, or shows me where its in. 
+
+
+3. it opens a window of the module 'turtle' and draws me a diagonal line that
+goes from left to right upwards. 
+
+Part D-
+
+1.mkdir- it makes a new folder with the given name- mkdir()
+rmdir- does the opposite from the first one- it removes the choosen folder. 
+cd- cd() with a name afterwards puts us into that folder. cd with nothing next
+brings us back to the starting point-
+as much as the command cd~ brings us to home folder.
+cd ~/ - with this command i can go directly to the choosen path that i want, 
+instead of doing every command apart. 
+
+2. '.'- means staying in the same folder.
+'..'- means going one folder back- to the "parent" folder.
+
+3. absolute path- doesnt matter what the current directory is , you can write 
+the path you want to go to and it will take you to that place.
+relative path- with that, its important where you stand. you cant just put a 
+path.
+
+4. *- means what type of file it is that we want to know in a certain folder. 
+we can use the sign ? with the command ls *.?? and it givesus only the files 
+that end with 2 letters, if we do ls *.??? it gives us with tree et cetera. 
+we can also use it the opposite way- ls ????.* and it will give us the files 
+that has 4 letters. 
+cp *.?? it means to copy all the file that thier types end with the same amount 
+as the mark-? for exemple cp*. ??? it will copy me ex0.txt we can also change 
+the places of the '?' and it will give as different copies. 
+
+5. '&' means that i can open an application and at the same time still work in 
+my shell. if i do not do that, when i run my program it will block further 
+actions in my shell and ill need to open a new one. 
+if i forgot, i can suspend the running appliction and then type 'bg' and that 
+will make it with an '&'
+
+6. when we do ls -l it gives us a lot of information-between them it gives as 
+the permissions the file has. 
+
+7.  grep- we print it to search an expression or a name in a certain file. 
+that gives us all the options with the same name. for e.x- i print- grep orly 
+README.txt and it gives me all the options with the word 'orly' 
+(orlykor12, orly koren). much more, it gives us all the sentence the wanted 
+word is in.
+cat- if we print that command and the given name of a file it will show us the 
+content of that same file. for e.x. cat README.txt - it will show us all the 
+content of that file.
+diff- compares files line by line. for e.x. if i want to search 2 files that 
+are the same one, that perhaps i saved twice. 
+wc- prints a count of newlines, word and byte. for e.x- if i have the file 
+README.txt i can use this commend to know how many words do i have, newline 
+and byte. (6, 22, 122)
+cal- with that commend we can use a calender that shows us the month, year and 
+day that we want. for e.x if i type cal -3 i get 3 months- last month, this 
+month (that marks me the date of today) and next month.
+
+
+
+
+
+
